@@ -10,8 +10,8 @@ const Home = () => {
     <h1 className="text-2xl sm:text-[2.4rem] font-sans font-bold text-gray-900 drop-shadow-md mb-4">
       Welcome to my Portfolio!
     </h1>
-    <p className="text-lg sm:text-3xl text-gray-800">
-      I am <span className="inline-block text-blue-900 text-2xl font-medium"><AutoText /></span>
+    <p className="text-lg text-center sm:text-3xl text-black font-sans ">
+      I am <span className="inline-block  text-blue-900 text-2xl font-medium"><AutoText /></span>
     </p>
       {/* button */}
     <button className='mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4

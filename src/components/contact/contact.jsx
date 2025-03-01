@@ -19,8 +19,8 @@ function Contact() {
   };
 
   return (
-    <div className="bg-white min-h-screen flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-      <div className="w-full max-w-lg bg-white p-8 rounded-lg shadow-lg border-2 border-purple-600">
+    <div className=" min-h-screen  flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-lg bg-white p-8 rounded-lg shadow-lg border-3 border-purple-600">
         <h1 className="text-3xl font-semibold text-center text-purple-800 mb-6">Contact Me</h1>
 
         {/* Form */}
