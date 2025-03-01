@@ -1,0 +1,34 @@
+<div className="flex flex-col sm:flex-row justify-around items-center h-[calc(100vh-64px)] px-4 ">
+  {/* Text Section */}
+  <div className="text-center sm:text-left sm:max-w-md ">
+    <h1 className="text-2xl sm:text-[2.4rem] font-sans font-bold text-gray-900 drop-shadow-md mb-4">
+      Welcome to my Portfolio!
+    </h1>
+    <p className="text-lg sm:text-2xl text-gray-800">
+      I am <span className="inline-block text-blue-800 text-2xl"><AutoText /></span>
+    </p>
+  </div>
+
+  {/* Image Section */}
+  <div className="mt-8 sm:mt-0 sm:ml-8">
+    <img src="/home.png" alt="Profile Image" className="w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] rounded-full shadow-lg" />
+  </div>
+  {/* button */}
+  <button className='mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4
+                hover-opacity-80 duration-300 hover:scale-105 font-semibold rounded-3xl bg-purple-900'>
+                    Contact Me</button>
+</div>
+
+
+
+<!-- about -->
+<div className='text-white md:flex overflow hidden items-center md:flex-wrap md:justify-center bg-purple-900
+h-[calc(100vh-200px)] shadow-xl mt-20 md:mx-10 bg-opacity-20 rounded-lg p-12'>
+  <div>
+    <h1 className='text-3xl text-gray-100 font-bold font-mono'>About us</h1>
+    <div className='md:flex flex-wrap flex-col md:flex-row items-center'>
+     <img src="/about.png" alt="" />
+    </div>
+  </div>
+
+</div>
