@@ -1,5 +1,5 @@
 import React from 'react'
-import LikeButton from '../like-button/like-button'
+import LikeButton from '../like-button/LikeButton'
 
 function ProjectCard({ title, main, demoLink, sourceLink }) {
     return (

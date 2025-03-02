@@ -1,6 +1,6 @@
 import React from 'react'
-import ProjectCard from './projectCard'
-import LikeButton from '../like-button/like-button'
+import ProjectCard from './ProjectCard'
+import LikeButton from '../like-button/LikeButton'
 
 function Projects() {
   return (

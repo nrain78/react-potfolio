@@ -1,5 +1,5 @@
 import React from 'react'
-import AutoText from '../auto-text/auto-text'
+import AutoText from '../auto-text/AutoText'
 
 const Home = () => {
   return (
